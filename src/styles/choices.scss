@@ -56,7 +56,12 @@ $choices-z-index: 1 !default;
   }
 
   [hidden] {
-    display: none !important;
+    display: block !important;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
   }
 }
 
