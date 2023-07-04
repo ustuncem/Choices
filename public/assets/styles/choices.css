@@ -27,7 +27,12 @@
   cursor: not-allowed;
 }
 .choices [hidden] {
-  display: none !important;
+  display: block !important;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .choices[data-type*=select-one] {
